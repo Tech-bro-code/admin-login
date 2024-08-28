@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: "Montserrat";
 }
+body{
+    height: 100vh;
+}
 
 .container{
     background-color: blue;
@@ -16,6 +19,7 @@
     place-content: center;
     flex-direction: column;
     margin: 0 auto;
+    background-attachment: fixed;
   
 }
 form{
